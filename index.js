@@ -19,7 +19,7 @@ async function main(){
         (err=>console.log(chalk.red(err))); 
     }
 } 
-main();
+main();        
 
 const app=express();   
 

@@ -41,7 +41,7 @@ module.exports = (req, res, next) => {
           console.log(chalk.green(`Log entry added to ${fileName}`));
         }
       });
-    }
+    } 
     }
   next();
 };

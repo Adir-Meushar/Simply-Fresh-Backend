@@ -1,0 +1,1874 @@
+{
+    "vegetables":[
+        {
+            "category": "Vegetables",
+            "title": "Tomato",
+            "description": "Known for its juicy texture and sweet-tart flavor, tomatoes are a versatile ingredient widely used in salads, sauces, and various culinary dishes.",
+            "price": 8.90,
+            "unit": "kg",
+            "sale": false, 
+            "nutritionalValue": {
+              "calories": 20,
+              "fat": 0.1, 
+              "carbohydrates": 3.47, 
+              "protein": 0.8 
+            },
+            "img": {
+              "url": "https://i.pinimg.com/236x/cb/71/90/cb7190237e3098a376a1807a1dcdb48d.jpg",
+              "alt": "Tomato"
+            }
+          },
+          {
+            "category": "Vegetables",
+            "title": "Potato",
+            "description": "Renowned for their versatility and comforting taste, potatoes are a kitchen staple cherished in countless recipes worldwide. Whether mashed, roasted, or fried, these humble tubers never fail to satisfy.",
+            "price": 5.90,
+            "unit": "kg",
+            "sale": true,
+            "nutritionalValue": {
+              "calories": 93,
+              "fat": 0.1, 
+              "carbohydrates": 21, 
+              "protein": 2.5
+            },
+            "img": {
+              "url": "https://i.pinimg.com/236x/87/fd/c1/87fdc15f1fadbd6e09e098f001b312b0.jpg",
+              "alt": "Potato"
+            }
+          },
+          {
+            "category": "Vegetables",
+            "title": "Ginger",
+            "description":"Ginger, prized for its versatility and distinctive flavor, is a beloved ingredient in kitchens worldwide. Whether used fresh in stir-fries, grated into teas, or incorporated into marinades, this aromatic root adds warmth and depth to a variety of dishes",
+            "price": 4.90,
+            "unit": "unit",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 79,
+              "fat": 0.8, 
+              "carbohydrates": 18, 
+              "protein": 1.8
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/65/bb/21/65bb2102534ae0e3e594462f9e09ea9b.jpg",
+              "alt": "Ginger"
+            }
+          },
+          {
+            "category": "Vegetables",
+            "title": "Mushrooms",
+            "description": 
+            "Mushrooms are celebrated for their versatility and rich flavor. Whether sautéed, grilled, or added to soups, these fungi bring depth and earthiness to a wide range of dishes.",
+            "price": 8.90,
+            "unit": "package",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 33,
+              "fat": 0.5, 
+              "carbohydrates": 7, 
+              "protein": 2.2 
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/af/23/1b/af231b9fef489c0b1061cb1d00800a80.jpg",
+              "alt": "Mushrooms (Shiitake)"
+            }
+          },
+          {
+            "category": "Vegetables",
+            "title": "Carrot",
+            "description": "Carrots are loved for their crisp texture and naturally sweet flavor. Whether enjoyed raw as a crunchy snack, grated into salads, or cooked in soups and stews, these nutritious root vegetables add a burst of color and taste to any meal.",
+            "price": 3.90,
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 41,
+              "fat": 0.2, 
+              "carbohydrates": 10, 
+              "protein": 0.9
+            },
+            "img": {
+              "url": "https://i.pinimg.com/736x/e8/e7/35/e8e7357586ecdcaae077e2de12dcbd39.jpg",
+              "alt": "Carrot"
+            }
+          },
+          {
+            "category": "Vegetables",
+            "title": "Parsley ",
+            "description": "Parsley is a versatile herb known for its crisp texture and fresh flavor. Whether as a garnish or in salads, it adds brightness to any dish.",
+            "price": 3.90,
+            "unit": "unit",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 36,  
+              "fat": 0.7, 
+              "carbohydrates": 6.3, 
+              "protein": 2.9
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/6d/d7/74/6dd774248c1838c6f718abc3e150d8d4.jpg",
+              "alt": "Parsley "
+            }
+          },
+          { 
+            "category": "Vegetables",
+            "title": "Cilantro ",
+            "description": "Cilantro is a versatile herb known for its crisp texture and fresh flavor. Whether as a garnish or in salads, it adds brightness to any dish.",
+            "price": 3.90,
+            "unit": "unit",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 36,  
+              "fat": 0.7,  
+              "carbohydrates": 6.3, 
+              "protein": 2.9
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/69/c1/c9/69c1c983951401c32f9ff8f32fd56e94.jpg",
+              "alt": "Cilantro "
+            }
+          },
+          { 
+            "category": "Vegetables",
+            "title": "Cherry Tomato ",
+            "description": "Cherry Tomato is a versatile herb known for its crisp texture and fresh flavor. Whether as a garnish or in salads, it adds brightness to any dish.",
+            "price": 5.90,
+            "unit": "package",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 18,  
+              "fat": 0.2,  
+              "carbohydrates": 3.9, 
+              "protein": 0.8
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/5a/55/32/5a5532d5b1de32825cd7df0b02c24cff.jpg",
+              "alt": "Cherry Tomato "
+            }
+          },
+          {
+            "category": "Vegetables",
+            "title": "Pumpkin",
+            "description": "Pumpkins, known for their crisp texture and natural sweetness, are cherished for their versatility. Whether roasted for a snack, grated into salads, or blended into soups and stews, these nutritious gourds bring vibrant color and flavor to every dish.",
+            "price": 10.90,
+            "unit": "package",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 26,
+              "fat": 0.1, 
+              "carbohydrates": 7,  
+              "protein": 1 
+            },
+            "img": { 
+              "url": "https://i.pinimg.com/564x/be/8a/2f/be8a2f7c06f64043582836c72193db09.jpg",
+              "alt": "Pumpkin"
+            }
+          },
+          
+          {
+            "category": "Vegetables",
+            "title": "Garlic",
+            "description": "Garlic is celebrated for its pungent flavor and aromatic qualities. Whether minced into sauces, roasted whole for a mellow taste, or sautéed to add depth to dishes, this versatile bulb adds a bold and distinctive flavor to a wide range of cuisines.",
+            "price": 11.90,
+            "unit": "package",
+            "sale": true,
+            "nutritionalValue": {
+              "calories": 149,
+              "fat": 0.5, 
+              "carbohydrates": 33,
+              "protein": 0.57
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/b8/8b/af/b88baf8fac3319214eaf9353a32574c4.jpg",
+              "alt": "Garlic"
+            }
+          },
+          {
+            "category": "Vegetables",
+            "title": "Cucumber",
+            "description": "Cucumbers are known for their crisp texture and refreshing taste. Whether sliced in salads, pickled for a tangy crunch, or enjoyed on their own as a hydrating snack, these versatile vegetables add a cool and rejuvenating element to any dish.",
+            "price": 7.90,
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 15,
+              "fat": 0.1, 
+              "carbohydrates": 3.6,
+              "protein": 0.7
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/43/bd/81/43bd81e1e023c060fc4463f053b1553b.jpg",
+              "alt": "Cucumber"
+            }
+          },
+          {
+            "category": "Vegetables",
+            "title": "Onion (White)",
+            "description": "Onions are prized for their pungent flavor and culinary versatility. Whether caramelized to add sweetness to savory dishes, diced into salads for a zesty kick, or used as a flavorful base for soups and sauces, these aromatic bulbs are a staple ingredient in kitchens worldwide.",
+            "price": 4.90,
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 39,
+              "fat": 0.1, 
+              "carbohydrates": 9,
+              "protein": 1.1 
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/24/ea/3b/24ea3b6c7b0b8273702c4c9863020153.jpg",
+              "alt": "Onion (White)"
+            }
+          },
+          {
+            "category": "Vegetables",
+            "title": "Onion (Red)",
+            "description": "Onions are prized for their pungent flavor and culinary versatility. Whether caramelized to add sweetness to savory dishes, diced into salads for a zesty kick, or used as a flavorful base for soups and sauces, these aromatic bulbs are a staple ingredient in kitchens worldwide.", 
+            "price": 5.90,
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 42,
+              "fat": 0.1, 
+              "carbohydrates": 10.1,
+              "protein": 0.9 
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/d7/ee/bb/d7eebb3ea1b336d2f0981aa21d8c95ea.jpg",
+              "alt": "Onion (Red)"
+            }
+          },
+          {
+            "category": "Vegetables",
+            "title": "Pepper (Red)",
+            "description": "Known for their vibrant colors, crisp texture, and sweet flavor, bell peppers are versatile vegetables that add a refreshing crunch and a hint of sweetness to salads, stir-fries, and other culinary creations.",
+            "price": 10.90,
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 20,
+              "fat": 0.2, 
+              "carbohydrates": 4.6,
+              "protein": 0.9
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/bc/70/47/bc70470465a3548103502303fe6dfc42.jpg",
+              "alt": "Pepper (Red)"
+            }
+          },
+          {
+            "category": "Vegetables",
+            "title": "Pepper (Yellow)",
+            "description": "Known for their vibrant colors, crisp texture, and sweet flavor, bell peppers are versatile vegetables that add a refreshing crunch and a hint of sweetness to salads, stir-fries, and other culinary creations.",
+            "price": 10.90,
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 20,
+              "fat": 0.2, 
+              "carbohydrates": 4.6, 
+              "protein": 0.9
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/6d/cf/81/6dcf815a0a4c34af6a2eab6e9efd2aad.jpg",
+              "alt": "Pepper (Yellow)"
+            }
+          } ,
+          {
+            "category": "Vegetables",
+            "title": "Pepper (Green)",
+            "description": "Known for their vibrant colors, crisp texture, and sweet flavor, bell peppers are versatile vegetables that add a refreshing crunch and a hint of sweetness to salads, stir-fries, and other culinary creations.",
+            "price": 9.90,
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 20,
+              "fat": 0.2, 
+              "carbohydrates": 4.6, 
+              "protein": 0.9
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/e4/d3/7c/e4d37cf7110611891e0027e0bf890c46.jpg",
+              "alt": "Pepper (Green)"
+            }
+          } ,
+          {
+            "category": "Vegetables",
+            "title": "Pepper (Orange)",
+            "description": "Known for their vibrant colors, crisp texture, and sweet flavor, bell peppers are versatile vegetables that add a refreshing crunch and a hint of sweetness to salads, stir-fries, and other culinary creations.",
+            "price": 10.90, 
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": { 
+              "calories": 20,
+              "fat": 0.2, 
+              "carbohydrates": 4.6, 
+              "protein": 0.9
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/56/c2/0a/56c20a4b979581f3c0805312ea86f25e.jpg",
+              "alt": "Pepper (Orange)"
+            }
+          } ,
+          {
+            "category": "Vegetables",
+            "title": "Eggplant",
+            "description": "Eggplants, with their glossy purple skin and creamy flesh, offer a unique flavor and texture. Whether grilled to perfection, roasted until tender, or used in hearty stews and casseroles, these versatile vegetables bring a rich and satisfying element to your culinary creations.",
+            "price": 8.90,
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 24,
+              "fat": 0.2, 
+              "carbohydrates": 6,
+              "protein": 1
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/f2/a4/1b/f2a41bbfe548b027cd69e12af98e99ba.jpg",
+              "alt": "Eggplant"
+            }
+          }, 
+          {
+            "category": "Vegetables",
+            "title": "Broccoli",
+            "description": "Broccoli, with its vibrant green florets and crisp stalks, is a nutritious powerhouse packed with vitamins and fiber. Whether steamed until tender-crisp, roasted to enhance its nutty flavor, or added to stir-fries for a crunchy texture, this versatile vegetable adds a burst of freshness and goodness to any meal.",
+            "price": 11.90,
+            "unit": "package",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 33,
+              "fat": 0.4, 
+              "carbohydrates": 7,
+              "protein": 2.8 
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/32/08/f1/3208f1fcd1ef1b7437f5faca10f332c2.jpg",
+              "alt": "Broccoli"
+            }
+          },
+          {
+            "category": "Vegetables",
+            "title": "Lettuce",
+            "description": "Known for its juicy texture and sweet-tart flavor, tomatoes are a versatile ingredient widely used in salads, sauces, and various culinary dishes.",
+            "price": 8.90,
+            "unit": "unit",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 14,
+              "fat": 0.2, 
+              "carbohydrates": 2.9,
+              "protein": 1.4
+            },
+            "img": {
+              "url": "https://i.pinimg.com/236x/dc/d5/dd/dcd5dd0e1589bae1c93484e50c4a57e0.jpg",
+              "alt": "Lettuce"
+            }
+          },
+          {
+            "category": "Vegetables",
+            "title": "Sweet Potato",
+            "description": "Known for its juicy texture and sweet-tart flavor, tomatoes are a versatile ingredient widely used in salads, sauces, and various culinary dishes.",
+            "price": 9.90,
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 85,
+              "fat": 0.1, 
+              "carbohydrates": 20,
+              "protein": 1.6
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/1c/a1/4e/1ca14efd4166e04a6e25cda5d9cb3df0.jpg",
+              "alt": "Sweet Potato"
+            }
+          },
+          {
+            "category": "Vegetables",
+            "title": "Beet",
+            "description": "Known for its juicy texture and sweet-tart flavor, tomatoes are a versatile ingredient widely used in salads, sauces, and various culinary dishes.",
+            "price": 5.90,
+            "unit": "kg",
+            "sale": true,
+            "nutritionalValue": {
+              "calories": 43,
+              "fat": 0.2, 
+              "carbohydrates": 10,
+              "protein": 1.6
+            },
+            "img": {
+              "url": "https://i.pinimg.com/236x/ee/59/70/ee5970a4cc4f66965d42e2ace382fda7.jpg",
+              "alt": "Beet"
+            }
+          } ,
+          { 
+            "category": "Vegetables",
+            "title": "Corn",
+            "description": "Known for its juicy texture and sweet-tart flavor, tomatoes are a versatile ingredient widely used in salads, sauces, and various culinary dishes.",
+            "price": 19.90,
+            "unit": "kg",
+            "sale": true,
+            "nutritionalValue": {
+              "calories": 96,
+              "fat": 1.2, 
+              "carbohydrates": 21, 
+              "protein": 3.4
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/7a/97/6d/7a976dc0a06be0aa865a7e88b34173b8.jpg",
+              "alt": "Corn"
+            }
+          },
+          {
+            "category": "Vegetables",
+            "title": "Cabbage (Red)",
+            "description": "Renowned for its bold hue, hearty texture, and slightly peppery taste, red cabbage is a versatile vegetable that lends vibrant color and robust flavor to salads, slaws, stir-fries, and various other culinary dishes.",
+            "price": 5.90,
+            "unit": "unit",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 29,
+              "fat": 0.1, 
+              "carbohydrates": 6.1, 
+              "protein": 1.5
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/41/4b/ac/414bac8634f3528eb395337a222edf6d.jpg",
+              "alt": "Cabbage (Red)"
+            }
+          } ,
+          {
+            "category": "Vegetables",
+            "title": "Cabbage (Green)",
+            "description": "Renowned for its bold hue, hearty texture, and slightly peppery taste, red cabbage is a versatile vegetable that lends vibrant color and robust flavor to salads, slaws, stir-fries, and various other culinary dishes.",
+            "price": 5.90,
+            "unit": "unit",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 23,
+              "fat": 0.1, 
+              "carbohydrates": 5.5, 
+              "protein": 1.3
+            },
+            "img": { 
+              "url": "https://i.pinimg.com/564x/c2/03/d8/c203d812b787d49ea1e1c7a9dbe2f589.jpg",
+              "alt": "Cabbage (Green)"
+            }
+          } ,
+          {
+            "category": "Vegetables",
+            "title": "Squash",
+            "description": "Squash is a versatile vegetable with a hearty texture and slightly sweet taste, perfect for salads, soups, and other dishes.",
+            "price": 9.90,
+            "unit": "kg",
+            "sale": true,
+            "nutritionalValue": {
+              "calories": 19,
+              "fat": 0.1, 
+              "carbohydrates": 3.5, 
+              "protein": 1.3
+            },
+            "img": { 
+              "url": "https://i.pinimg.com/564x/13/dc/58/13dc5881c84d384bce427308d77a9aa4.jpg",
+              "alt": "Squash"
+            }
+          } ,
+          {
+            "category": "Vegetables",
+            "title": "Avocado",
+            "description": "Avocado A creamy, nutritious fruit with a buttery texture, rich in healthy fats and versatile in culinary uses.",
+            "price": 10.90,
+            "unit": "kg",
+            "sale": true,
+            "nutritionalValue": {
+              "calories": 160,
+              "fat": 14.6, 
+              "carbohydrates": 8.5, 
+              "protein": 2
+            },
+            "img": { 
+              "url": "https://i.pinimg.com/564x/a9/10/f7/a910f76ccc5a6a547078d18eb4a3189d.jpg",
+              "alt": "Avocado"
+            } 
+          } ,
+          {
+            "category": "Vegetables",
+            "title": "Radish",
+            "description": "Radish is a crisp and peppery root vegetable, often used to add a fresh and spicy flavor to salads, sandwiches, and various dishes.",
+            "price": 5.90,
+            "unit": "package",
+            "sale": true,
+            "nutritionalValue": {
+              "calories": 15,
+              "fat": 0.1, 
+              "carbohydrates": 3.4, 
+              "protein": 0.7
+            },
+            "img": { 
+              "url": "https://i.pinimg.com/564x/61/c5/98/61c598c6444f6a34f12aaddb60264e2f.jpg",
+              "alt": "Radish"
+            }
+          } ,
+          {
+            "category": "Vegetables",
+            "title": "Chilli Pepper (Green)",
+            "description": "Chilli Pepper is known for its vibrant color and spicy flavor, adding heat and depth to a wide range of dishes including salsas, stir-fries, and marinades.",
+            "price": 1,
+            "unit": "unit",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 39,
+              "fat": 0.4, 
+              "carbohydrates": 9, 
+              "protein": 1.9
+            },
+            "img": { 
+              "url": "https://i.pinimg.com/736x/33/1a/40/331a4074be23631c27edfe9200b08018.jpg",
+              "alt": "Chilli Pepper (Green)"
+            }
+          } ,
+          {
+            "category": "Vegetables",
+            "title": "Chilli Pepper (Red)",
+            "description": "Chilli Pepper is known for its vibrant color and spicy flavor, adding heat and depth to a wide range of dishes including salsas, stir-fries, and marinades.",
+            "price": 1,
+            "unit": "unit", 
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 39,
+              "fat": 0.4, 
+              "carbohydrates": 9, 
+              "protein": 1.9 
+            },
+            "img": { 
+              "url": "https://i.pinimg.com/564x/38/59/6f/38596fdd928af7c8b8609744b0d26143.jpg",
+              "alt": "Chilli Pepper (Red)"
+            }
+          } 
+    ]
+    ,"fruits":[
+        {   "category": "Fruits",
+            "title": "Apple (Hermon apple)",
+            "description": "Apples are crisp, juicy, and sweet fruits that come in various colors and flavors. They are rich in fiber and vitamin C.",
+            "price": 10.90,
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 52,
+              "fat": 0.2,
+              "carbohydrates": 14,
+              "protein": 0.3
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/c2/c9/e0/c2c9e05009dddbc5d8bf7640c515470d.jpg",
+              "alt": "Apple (Hermon apple)"
+            }
+          },
+          {   "category": "Fruits",
+          "title": "Apple (Smith)",
+          "description": "Apples are crisp, juicy, and sweet fruits that come in various colors and flavors. They are rich in fiber and vitamin C.",
+          "price": 10.90,
+          "unit": "kg",
+          "sale": false,
+          "nutritionalValue": {
+            "calories": 52,
+            "fat": 0.2,
+            "carbohydrates": 14,
+            "protein": 0.3
+          },
+          "img": {
+            "url": "https://i.pinimg.com/564x/d4/d6/33/d4d633eb628c55a084205dc8f1bf8f38.jpg",
+            "alt": "Apple (Smith)"
+          }
+        },
+        {   "category": "Fruits",
+        "title": "Apple (Pink Lady)",
+        "description": "Apples are crisp, juicy, and sweet fruits that come in various colors and flavors. They are rich in fiber and vitamin C.",
+        "price": 14.90,
+        "unit": "kg",
+        "sale": false,
+        "nutritionalValue": {
+          "calories": 52,
+          "fat": 0.2,  
+          "carbohydrates": 14,
+          "protein": 0.3
+        },
+        "img": {
+          "url": "https://i.pinimg.com/564x/2e/7f/05/2e7f055ea054d626cd6dc7152645aceb.jpg",
+          "alt": "Apple (Pink Lady)"
+        }
+      },
+      {   "category": "Fruits",
+      "title": "Apple (Golden)",
+      "description": "Apples are crisp, juicy, and sweet fruits that come in various colors and flavors. They are rich in fiber and vitamin C.",
+      "price": 10.90,
+      "unit": "kg",
+      "sale": true,
+      "nutritionalValue": {
+        "calories": 52,
+        "fat": 0.2,  
+        "carbohydrates": 14,
+        "protein": 0.3
+      },
+      "img": {
+        "url": "https://i.pinimg.com/564x/56/eb/c4/56ebc4f7f49e1bf48c95e18b6feed75b.jpg",
+        "alt": "Apple (Golden Delicious)" 
+      }
+    },
+    {   "category": "Fruits",
+    "title": "Persimmon",
+    "description": "Enjoy the sweet taste of persimmons – great for snacking or cooking up something tasty.",
+    "price": 15.90,
+    "unit": "kg",
+    "sale": true,
+    "nutritionalValue": {
+      "calories": 70,
+      "fat": 0.2,  
+      "carbohydrates": 18.5,
+      "protein": 0.5
+    },
+    "img": {
+      "url": "https://i.pinimg.com/564x/3b/4a/f9/3b4af9ce1ccf1e72c35a24cf6d193fd8.jpg",
+      "alt": "Persimmon" 
+    }
+  },
+  {   "category": "Fruits",
+  "title": "Figs",
+  "description": "Savor the rich sweetness of figs – a delectable fruit perfect for snacking or adding a touch of flavor to your dishes",
+  "price": 16.90,
+  "unit": "package",
+  "sale": true,
+  "nutritionalValue": {
+    "calories": 74,
+    "fat": 0.3,  
+    "carbohydrates": 19.1,
+    "protein": 0.75
+  },
+  "img": {
+    "url": "https://i.pinimg.com/564x/0d/99/d0/0d99d056cb36e8d317d3bd822f2a77b3.jpg",
+    "alt": "Figs" 
+  }
+},
+    {   "category": "Fruits",
+    "title": "Pear",
+    "description": "Pear's are renowned for their crispness, juiciness, and sweet flavor, coming in diverse colors and tastes. Loaded with fiber, they offer both a delightful snack and a healthy addition to meals.",
+    "price": 9.90,
+    "unit": "kg",
+    "sale": false,
+    "nutritionalValue": {
+      "calories": 43.6,
+      "fat": 0.1,  
+      "carbohydrates": 9.2,
+      "protein": 0.3
+    },
+    "img": {
+      "url": "https://i.pinimg.com/564x/7f/c3/d4/7fc3d4db314aeffc0766052e63ef3015.jpg",
+      "alt": "Pear" 
+    }
+  },
+  {   "category": "Fruits",
+    "title": "Peach",
+    "description": "Juicy and sweet, our peaches are bursting with flavor and freshness. Enjoy them as a healthy snack or add them to your favorite recipes for a delightful touch of summer sweetness.",
+    "price": 15.90,
+    "unit": "kg",
+    "sale": false,
+    "nutritionalValue": {
+      "calories": 42, 
+      "fat": 0.2,  
+      "carbohydrates": 10,
+      "protein": 0.9
+    },
+    "img": {
+      "url": "https://i.pinimg.com/564x/6e/ac/eb/6eacebe20641f5710f8b109105554b43.jpg",
+      "alt": "Peach" 
+    }
+  },
+  {   "category": "Fruits",
+  "title": "Plums",
+  "description": "Plums, ripe and succulent, offer a burst of sweet-tart flavor in every bite. Enjoy them as a refreshing snack or incorporate them into your culinary creations for a delicious twist.",
+  "price": 15.90,
+  "unit": "kg",
+  "sale": false,
+  "nutritionalValue": {
+    "calories": 46, 
+    "fat": 0.3,  
+    "carbohydrates": 11,
+    "protein": 0.7
+  },
+  "img": {
+    "url": "https://i.pinimg.com/564x/43/86/25/43862549c42b44c3ceab28af20099998.jpg",
+    "alt": "Plums" 
+  } 
+},
+{   "category": "Fruits",
+"title": "Apricot",
+"description": "Delight in the juicy sweetness of apricots – perfect for a quick snack or as a tasty addition to your recipes.",
+"price": 16.90,
+"unit": "package",
+"sale": true,
+"nutritionalValue": {
+  "calories": 48,  
+  "fat": 0.4,  
+  "carbohydrates": 11,
+  "protein": 1.4
+},
+"img": {
+  "url": "https://i.pinimg.com/564x/88/8c/f6/888cf6bccb50c2cba8d715c9784aaec4.jpg",
+  "alt": "Apricot" 
+}
+},
+          {
+            "category": "Fruits",
+            "title": "Banana",
+            "description": "Bananas are elongated, yellow fruits with a creamy texture and sweet taste. They are a good source of potassium and vitamin B6.",
+            "price": 7.90,
+            "unit": "kg",
+            "sale": true,
+            "nutritionalValue": {
+              "calories": 89,
+              "fat": 0.3,
+              "carbohydrates": 23,
+              "protein": 1.1
+            },
+            "img": {
+              "url": "https://i.pinimg.com/236x/a3/37/0b/a3370bfbc03bc8de595f417f08f7fa5e.jpg",
+              "alt": "Banana"
+            }
+          },
+          {
+            "category": "Fruits",
+            "title": "Watermelon",
+            "description": "Watermelon is a refreshing fruit with a juicy, sweet flesh and a crisp texture. It is high in water content and rich in vitamins A and C.",
+            "price": 4.90,
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 30,
+              "fat": 0.2,
+              "carbohydrates": 8,
+              "protein": 0.6
+            },
+            "img": {
+              "url": "https://i.pinimg.com/236x/7f/82/b0/7f82b07e5335838ca4fc3a6f04003ffb.jpg",
+              "alt": "Watermelon"
+            }
+          },
+          {
+            "category": "Fruits",
+            "title": "Orange",
+            "description": "Oranges are round citrus fruits with a bright orange skin and juicy, sweet-tart flesh. They are high in vitamin C and antioxidants.",
+            "price": 8.90,
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 47,
+              "fat": 0.1,
+              "carbohydrates": 12,
+              "protein": 0.9
+            },
+            "img": {
+              "url": "https://i.pinimg.com/236x/7a/aa/a5/7aaaa545e00e8a434850e80b8910dd94.jpg",
+              "alt": "Orange"
+            }
+          },
+          {
+            "category": "Fruits",
+            "title": "Grapefruite",
+            "description": "Grapefruits are round citrus fruits with a bright orange skin and juicy, sweet-tart flesh. Packed with vitamin C and antioxidants, they offer a refreshing and nutritious addition to your diet.",
+            "price": 10.90,
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 42,
+              "fat": 0.1,
+              "carbohydrates": 11,
+              "protein": 0.8
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/db/36/56/db36561ffa303bfece6aafc13589a13a.jpg",
+              "alt": "Grapefruite"
+            }
+          },
+          { 
+            "category": "Fruits",
+            "title": "Lime",
+            "description": "Limes are round citrus fruits with a vibrant green skin and juicy, tangy flesh. Rich in vitamin C and antioxidants, they are a zesty addition to any dish or beverage.",
+            "price": 9.90,
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": { 
+              "calories": 30,
+              "fat": 0.2,
+              "carbohydrates": 11,
+              "protein": 0.7
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/59/e3/de/59e3defbb6b306138e3810c93e0a5f90.jpg",
+              "alt": "Lime"
+            }
+          },
+          {
+            "category": "Fruits",
+            "title": "Kiwi",
+            "description": "Kiwis are small, oval fruits with fuzzy brown skin and bright green flesh with tiny black seeds. They are rich in vitamin C, vitamin K, and fiber.",
+            "price": 11.90,
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 61,
+              "fat": 0.5,
+              "carbohydrates": 15,
+              "protein": 1.1
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/fb/b2/71/fbb27112f6973922e466106ea10e01bf.jpg",
+              "alt": "Kiwi"
+            }
+          },
+          {
+            "category": "Fruits",
+            "title": "Melons",
+            "description": "Melons are small, oval fruits with fuzzy brown skin and juicy, bright green flesh dotted with tiny black seeds. They are packed with vitamin C, vitamin K, and fiber, offering a refreshing and nutritious treat.",
+            "price": 12.90, 
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 33,
+              "fat": 0.2,
+              "carbohydrates": 8,
+              "protein": 0.8
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/c8/9a/74/c89a74d98c4ed1194948229c9baa4118.jpg",
+              "alt": "Melons"
+            }
+          },
+          {
+            "category": "Fruits",
+            "title": "Melons (Cantaloupe)",
+            "description": "Melons are small, oval fruits with fuzzy brown skin and juicy, bright green flesh dotted with tiny black seeds. They are packed with vitamin C, vitamin K, and fiber, offering a refreshing and nutritious treat.",
+            "price": 13.90, 
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 33,
+              "fat": 0.2,
+              "carbohydrates": 8, 
+              "protein": 0.8
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/3e/93/e5/3e93e516e07ddeef6369353e1a93e0e2.jpg",
+              "alt": "Melon (Cantaloupe)"
+            }
+          },
+          {
+            "category": "Fruits",
+            "title": "Mango",
+            "description": "Mangoes are tropical stone fruits with a sweet, juicy flesh and a unique flavor profile. They are rich in vitamins A and C.",
+            "price": 14.90,
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 60,
+              "fat": 0.4,
+              "carbohydrates": 15,
+              "protein": 0.8
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/f3/18/c6/f318c68ebf8f6489491c937797d92b32.jpg",
+              "alt": "Mango"
+            }
+          },
+          {
+            "category": "Fruits",
+            "title": "Pitaya",
+            "description": "Pitaya, also known as dragon fruit, is a tropical fruit with vibrant pink skin and a sweet, mildly tangy flavor. It is rich in antioxidants and vitamin C.",
+            "price": 18.90,
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 60,
+              "fat": 0.6,
+              "carbohydrates": 13,
+              "protein": 1.2
+            },
+            "img": {
+              "url": "https://i.pinimg.com/236x/04/71/fd/0471fd0da408b5a66cb084261675b907.jpg",
+              "alt": "Pitaya"
+            }
+          },
+          {
+            "category": "Fruits",
+            "title": "Coconut",
+            "description": 
+            "Coconut, a tropical fruit with its distinctive hard shell and creamy white flesh, boasts a sweet and nutty flavor. Rich in healthy fats and antioxidants, coconut is not only delicious but also offers numerous health benefits.",
+            "price": 10.90,
+            "unit": "unit",
+            "sale": true,
+            "nutritionalValue": {
+              "calories": 354,
+              "fat": 33,
+              "carbohydrates": 15,
+              "protein": 3.3
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/54/03/94/5403941bb86454d7187406bf22afe860.jpg",
+              "alt": "Coconut"
+            }
+          },
+          {
+            "category": "Fruits",
+            "title": "Pomegranate",
+            "description": "Pomegranates are round fruits with a thick, leathery skin and juicy, ruby-red seeds. They are rich in antioxidants and have a sweet-tart flavor.",
+            "price": 4.90,
+            "unit": "kg",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 83,
+              "fat": 1.2,
+              "carbohydrates": 19,
+              "protein": 1.7
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/c2/b1/09/c2b10932d82f89d8f044556b5e0f1f53.jpg",
+              "alt": "Pomegranate"
+            }
+          },
+          {
+            "category": "Fruits",
+            "title": "Lemon",
+            "description": "Lemons are sour citrus fruits with a bright yellow skin and acidic juice. They are used in cooking, baking, and beverages for their tangy flavor.",
+            "price": 8.90,
+            "unit": "kg",
+            "sale": true,
+            "nutritionalValue": {
+              "calories": 29,
+              "fat": 0.3,
+              "carbohydrates": 9,
+              "protein": 1.1
+            },
+            "img": {
+              "url": "https://i.pinimg.com/236x/f2/0b/16/f20b16883386bc8ec55f9f751e3ef454.jpg",
+              "alt": "Lemon"
+            }
+          },
+          {
+            "category": "Fruits",
+            "title": "Pineapple",
+            "description": "Pineapples are tropical fruits with a spiky, tough skin and sweet, juicy flesh. They are rich in vitamin C and manganese.",
+            "price": 29.90,
+            "unit": "unit",
+            "sale": false,
+            "nutritionalValue": {
+              "calories": 50,
+              "fat": 0.1,
+              "carbohydrates": 13,
+              "protein": 0.5
+            },
+            "img": {
+              "url": "https://i.pinimg.com/236x/30/3b/2d/303b2d8c02bc07aa8a39d239d1203394.jpg",
+              "alt": "Pineapple"
+            }
+          },
+          {
+            "category": "Fruits",
+            "title": "Strawberry",
+            "description": "Strawberries are bright red, juicy berries with a sweet flavor and a slightly tart undertone. They are packed with vitamin C, fiber, and antioxidants.",
+            "price": 14.90,
+            "unit": "package",
+            "sale": true,
+            "nutritionalValue": { 
+              "calories": 32,
+              "fat": 0.3,
+              "carbohydrates": 8,
+              "protein": 0.7
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/10/c5/f1/10c5f121a926ff596b94cad09ec943fa.jpg",
+              "alt": "Strawberry"
+            }
+          },
+          {
+            "category": "Fruits",
+            "title": "Blueberries ",
+            "description": "Blueberries: Bursting with antioxidants and vitamins, these small, sweet berries offer a delicious and nutritious addition to various dishes, from smoothies to desserts.",
+            "price": 14.90,
+            "unit": "package",
+            "sale": true,
+            "nutritionalValue": { 
+              "calories": 57,
+              "fat": 0.3,
+              "carbohydrates": 14.4,
+              "protein": 0.7
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/40/8e/84/408e8420924ee6a4c96ef60b31a90d5a.jpg",
+              "alt": "Blueberries "
+            }
+          },
+          {
+            "category": "Fruits",
+            "title": "Raspberries ",
+            "description": "Tart and juicy, raspberries are vibrant red berries loaded with antioxidants and fiber. Their bold flavor adds a refreshing twist to desserts, salads, and breakfast dishes.",
+            "price": 14.90,
+            "unit": "package",
+            "sale": true,
+            "nutritionalValue": { 
+              "calories": 52,
+              "fat": 0.7,
+              "carbohydrates": 12,
+              "protein": 1.2
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/7f/ff/40/7fff40c17c8a9e147b19a8c26ec92f5d.jpg",
+              "alt": "Raspberries "
+            }
+          }, 
+          {
+            "category": "Fruits",
+            "title": "Dates ",
+            "description": "Nature's candy, dates are sweet and chewy fruits packed with essential nutrients like fiber, vitamins, and minerals. They're a versatile ingredient in both sweet and savory dishes, adding a rich caramel-like flavor.",
+            "price": 20.90,
+            "unit": "kg",
+            "sale": true,
+            "nutritionalValue": { 
+              "calories": 277,
+              "fat": 0.15,
+              "carbohydrates": 74.9,
+              "protein": 1.8
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/75/4e/bb/754ebb3e5953caaa0d76160e668e8a5a.jpg",
+              "alt": "Dates "
+            }
+          },
+          {
+            "category": "Fruits",
+            "title": "Grapes (Green)",
+           "description": "Grapes (Green) are crisp and refreshing fruits with a sweet flavor and a hint of tartness. They are enjoyed fresh as a snack, in salads, or pressed into refreshing juices and wines.",
+            "price": 18.90,
+            "unit": "package",
+            "sale": false,
+            "nutritionalValue": { 
+              "calories": 69,
+              "fat": 0.2,
+              "carbohydrates": 18,
+              "protein": 0.7
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/f4/64/eb/f464eb3327d44ed66e587a726098c3fe.jpg",
+              "alt": "Grapes (Green)"
+            }
+          },
+          {
+            "category": "Fruits",
+            "title": "Grapes (Red)",
+           "description": "Grapes (Green) are crisp and refreshing fruits with a sweet flavor and a hint of tartness. They are enjoyed fresh as a snack, in salads, or pressed into refreshing juices and wines.",
+            "price": 17.90,
+            "unit": "package",
+            "sale": false,
+            "nutritionalValue": { 
+              "calories": 69,
+              "fat": 0.2,
+              "carbohydrates": 18,
+              "protein": 0.7
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/47/1e/61/471e615ae8f890eeec67535dcda49e09.jpg",
+              "alt": "Grapes (Red)"
+            }
+          }
+        ]
+        ,"bakery":[
+          { 
+            "category": "Bakery",
+            "title": "White bread",
+            "description": "White bread, a wholesome staple enjoyed worldwide, offers a blend of hearty flavor and nutritional benefits.",
+            "price": 13,
+            "unit": "unit",
+            "sale": true,
+            "nutritionalValue": { 
+              "calories": 266,
+              "fat": 3.2,
+              "carbohydrates": 50.6,
+              "protein": 7.5
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/b9/b6/f2/b9b6f20045460b5cfd023e6f1c539dd9.jpg",
+              "alt": "White bread"
+            }
+          },
+          { 
+            "category": "Bakery",
+            "title": "Pita Bread",
+            "description": "Pita Bread a versatile and delicious choice for any meal. Soft, satisfying, and perfect with your favorite spreads or fillings",
+            "price": 6,
+            "unit": "unit",
+            "sale": true,  
+            "nutritionalValue": { 
+              "calories": 275,
+              "fat": 1.2,
+              "carbohydrates": 55.7,
+              "protein": 9.1
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/8c/48/77/8c48774cc431eee4a931886367d97dc6.jpg",
+              "alt": "Pita Bread"
+            }
+          },
+          { 
+            "category": "Bakery",
+            "title": "Wholegrain bread ",
+            "description": "Wholegrain bread , a wholesome staple enjoyed worldwide, offers a blend of hearty flavor and nutritional benefits.",
+            "price": 18,
+            "unit": "unit",
+            "sale": false,
+            "nutritionalValue": { 
+              "calories": 252,
+              "fat": 3.5,
+              "carbohydrates": 43,
+              "protein": 12
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/53/c2/b6/53c2b613a93d1be7b8724fd41846957f.jpg",
+              "alt": "Wholegrain bread "
+            }
+          }, 
+          { 
+            "category": "Bakery",
+            "title": "Challah",
+            "description": "Wheat bread, a wholesome staple enjoyed worldwide, offers a blend of hearty flavor and nutritional benefits.",
+            "price": 13,
+            "unit": "unit",
+            "sale": true,
+            "nutritionalValue": { 
+              "calories": 283,
+              "fat": 6,
+              "carbohydrates": 47.8,
+              "protein": 9.5
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/00/cc/a9/00cca993edbf4287dea567c603e97a28.jpg",
+              "alt": "Challah"
+            }
+          }, 
+          { 
+            "category": "Bakery",
+            "title": "Buguette",
+            "description": "Wheat bread, a wholesome staple enjoyed worldwide, offers a blend of hearty flavor and nutritional benefits.",
+            "price": 16,
+            "unit": "unit",
+            "sale": false,
+            "nutritionalValue": { 
+              "calories": 274,
+              "fat": 3,
+              "carbohydrates": 51.9, 
+              "protein": 8.8
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/73/3e/b8/733eb82095131b3503b088f85f36ec67.jpg",
+              "alt": "Buguette"
+            }
+          },
+          { 
+            "category": "Bakery",
+            "title": "Croissant",
+            "description": "Enjoy our buttery and flaky croissant, perfect for breakfast or a tasty snack!",
+            "price": 10,
+            "unit": "unit",
+            "sale": false,
+            "nutritionalValue": { 
+              "calories": 406,
+              "fat": 21 ,
+              "carbohydrates": 46 , 
+              "protein": 8
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/a2/e3/65/a2e365dc41d97914f112506d1252f64b.jpg",
+              "alt": "Croissant"
+            }
+          },
+          { 
+            "category": "Bakery",
+            "title": "Blueberry Muffins",
+            "description": "Indulge in our moist and bursting-with-flavor blueberry muffins, ideal for breakfast or a delightful snack!",
+            "price": 9.90,
+            "unit": "unit",
+            "sale": true,
+            "nutritionalValue": { 
+              "calories": 277,
+              "fat": 6.5 ,
+              "carbohydrates": 48 ,   
+              "protein": 5.5
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/86/cd/89/86cd8901b0e154beb19eb3400fd9e751.jpg",
+              "alt": "Blueberry Muffins"
+            }
+          },
+          { 
+            "category": "Bakery",
+            "title": "Bread Basket",
+            "description": "Enjoy our tasty selection of different types of bread. From crunchy baguettes to soft brioche, there's something for everyone in our basket!",
+            "price": 109.90,
+            "unit": "unit",
+            "sale": false,
+            "nutritionalValue": { 
+              "calories": 1300,
+              "fat": 14,
+              "carbohydrates": 260, 
+              "protein": 33
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/cc/75/67/cc75674d365aebdf0b76b28b43dcc783.jpg",
+              "alt": "Bread Basket"
+            }
+          },
+          { 
+            "category": "Bakery",
+            "title": "Bagel",
+            "description":"Savor our chewy and flavorful bagel, great for breakfast or a quick bite on the go!",
+            "price": 10,
+            "unit": "unit",
+            "sale": false,
+            "nutritionalValue": { 
+              "calories": 250,
+              "fat": 1.5,
+              "carbohydrates": 49, 
+              "protein": 10 
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/77/a9/41/77a941e2a32d037bdce44fdf2eb18d08.jpg",
+              "alt": "Bagel"
+            }
+          },
+          { 
+            "category": "Bakery",
+            "title": "Mixed Seed Sourdough",
+            "description": "Try our hearty sourdough bread packed with mixed seeds for a nutritious and delicious slice every time!",
+            "price": 16,
+            "unit": "unit",
+            "sale": false, 
+            "nutritionalValue": { 
+              "calories": 267,
+              "fat": 5.9,
+              "carbohydrates": 41.9, 
+              "protein": 8.1 
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/08/46/b7/0846b7e8bb26f339c16bb1aa1669a181.jpg",
+              "alt": "Mixed Seed Sourdough"
+            }
+          },
+          { 
+            "category": "Bakery",
+            "title": "Chocolate Croissant",
+            "description": "Indulge in our delightful croissant filled with rich chocolate, perfect for a sweet treat anytime!",
+            "price": 8.90,
+            "unit": "unit",
+            "sale": true,
+            "nutritionalValue": { 
+              "calories": 416,
+              "fat": 24.13,
+              "carbohydrates": 44.2, 
+              "protein": 8.6
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/54/94/53/549453ea281e98d3df1f52e7d85cb732.jpg",
+              "alt": "Chocolate Croissant"
+            }
+          },
+          { 
+            "category": "Bakery",
+            "title": "Burger Buns",
+            "description": "Enjoy our soft and fluffy burger buns, the perfect partner for your favorite burgers!",
+            "price": 6,
+            "unit": "unit",
+            "sale": false,
+            "nutritionalValue": { 
+              "calories": 460,
+              "fat": 24.7,
+              "carbohydrates": 51.5, 
+              "protein": 8
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/88/c8/7f/88c87f7466576eedc2168c742a5f361e.jpg",
+              "alt": "Burger Buns"
+            }
+          },
+          { 
+            "category": "Bakery",
+            "title": "Chocolate Chip Cookie",
+            "description": "Enjoy a classic comfort of our Chocolate Chip Cookie. Baked to perfection with golden edges and gooey chocolate chips, it's a timeless treat for any occasion",
+            "price": 4.90,
+            "unit": "unit",
+            "sale": false,
+            "nutritionalValue": { 
+              "calories": 489,
+              "fat": 24.7,
+              "carbohydrates": 64,  
+              "protein": 5.5
+            },
+            "img": {
+              "url": "https://i.pinimg.com/236x/13/e8/35/13e835ec53489589b30b4d982350c372.jpg",
+              "alt": "Chocolate Chip Cookie"
+            }
+          },
+          { 
+            "category": "Bakery",
+            "title": "Chocolate brownie",
+            "description": "Delight in the irresistible goodness of our Chocolate Brownie. Made with rich cocoa, it's a heavenly treat for chocolate lovers !",
+            "price": 4.90,
+            "unit": "unit",
+            "sale": false,
+            "nutritionalValue": { 
+              "calories": 466,
+              "fat": 29,
+              "carbohydrates": 50, 
+              "protein": 6
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/7b/0e/03/7b0e0312e6a1e037d7975177954bcc5f.jpg",
+              "alt": "Chocolate brownie"
+            }
+          },
+          { 
+            "category": "Bakery",
+            "title": "Cinnamon roll",
+            "description": "Savor the deliciousness of our Cinnamon Roll. With its perfect mix of cinnamon and sugar, it's a treat you won't want to miss !",
+            "price": 10.90,
+            "unit": "unit",
+            "sale": true,
+            "nutritionalValue": {  
+              "calories": 436,
+              "fat": 24,
+              "carbohydrates": 50, 
+              "protein": 4.7
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/3b/f6/5a/3bf65a771021e399f24af772b6d39e6e.jpg",
+              "alt": "Cinnamon roll"
+            }
+          }
+          
+        ],
+        "dairyAndeggs":[
+          { 
+            "category": "Dairy&Eggs",
+            "title": "Eggs(6)",
+            "description": "Eggs(6), a wholesome staple enjoyed worldwide, offers a blend of hearty flavor and nutritional benefits.",
+            "price": 10.90,
+            "unit": "package",
+            "sale": false,
+            "nutritionalValue": { 
+              "calories": 143,
+              "fat": 9.5,
+              "carbohydrates": 0.7,
+              "protein": 12.5
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/cb/df/be/cbdfbe43b4365c3b2b3fb6d952d4d115.jpg",
+              "alt": "Eggs(6)"
+            }
+          },
+          { 
+            "category": "Dairy&Eggs",
+            "title": "Eggs(12)",
+            "description": "Eggs(12), a wholesome staple enjoyed worldwide, offers a blend of hearty flavor and nutritional benefits.",
+            "price": 14.90,
+            "unit": "package",
+            "sale": false,
+            "nutritionalValue": { 
+              "calories": 143,
+              "fat": 9.5,
+              "carbohydrates": 0.7,
+              "protein": 12.5
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/0f/10/16/0f10162233ac06f975d968fc214a1cbd.jpg",
+              "alt": "Eggs(12)"
+            }
+          },
+          { 
+            "category": "Dairy&Eggs",
+            "title": "Eggs(30)",
+            "description": "Eggs(30), a wholesome staple enjoyed worldwide, offers a blend of hearty flavor and nutritional benefits.",
+            "price": 33.90,
+            "unit": "package",
+            "sale": false,
+            "nutritionalValue": { 
+              "calories": 143,
+              "fat": 9.5,
+              "carbohydrates": 0.7,
+              "protein": 12.5
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/5f/d6/06/5fd60664dfeb9cb75e34da8023cad277.jpg",
+              "alt": "Eggs(30)"
+            }
+          },
+          { 
+            "category": "Dairy&Eggs",
+            "title": "Milk",
+            "description": "Milk, a wholesome staple enjoyed worldwide, offers a blend of hearty flavor and nutritional benefits.",
+            "price": 7.90,
+            "unit": "unit",
+            "sale": false,
+            "nutritionalValue": { 
+              "calories": 61,
+              "fat": 3,
+              "carbohydrates": 4.8,
+              "protein": 3.2
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/94/50/85/945085c25f6124e98360656f0bf88ad5.jpg",
+              "alt": "Milk"
+            }
+          },
+          { 
+            "category": "Dairy&Eggs",
+            "title": "Butter",
+            "description": "Butter, a wholesome staple enjoyed worldwide, offers a blend of hearty flavor and nutritional benefits.",
+            "price": 10.90,
+            "unit": "package",
+            "sale": false,
+            "nutritionalValue": { 
+              "calories": 717,
+              "fat": 81.1,
+              "carbohydrates": 0.06,
+              "protein": 0.8
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/db/4c/dd/db4cdd4a09d5fc22da86d470bfe85f6c.jpg",
+              "alt": "Butter"
+            }
+          },
+          { 
+            "category": "Dairy&Eggs",
+            "title": "Cottage Cheese",
+            "description": "Cottage Cheese, a wholesome staple enjoyed worldwide, offers a blend of hearty flavor and nutritional benefits.",
+            "price": 6.90,
+            "unit": "package",
+            "sale": false, 
+            "nutritionalValue": { 
+              "calories": 95,
+              "fat": 5, 
+              "carbohydrates": 1.5, 
+              "protein": 11
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/83/db/d8/83dbd8b33b99bdca03900df8ebe6cfba.jpg",
+              "alt": "Cottage Cheese"
+            }
+          },
+          { 
+            "category": "Dairy&Eggs",
+            "title": "YoPro (Watermelon)",
+            "description": "Discover YoPro Protein Yogurt—delicious flavors Packed with protein, it's your go-to snack for a healthy lifestyle.",
+            "price": 5.90,
+            "unit": "unit",
+            "sale": false, 
+            "nutritionalValue": { 
+              "calories": 43,
+              "fat": 0.3,
+              "carbohydrates": 4.1, 
+              "protein": 9.5
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/f9/5c/33/f95c33203cb49f83e3a8fd3deddb7c52.jpg",
+              "alt": "YoPro (Watermelon)"
+            }
+          },
+          { 
+            "category": "Dairy&Eggs",
+            "title": "YoPro (Blueberry)",
+            "description": "Discover YoPro Protein Yogurt—delicious flavors Packed with protein, it's your go-to snack for a healthy lifestyle.",
+            "price": 5.90,
+            "unit": "unit", 
+            "sale": false, 
+            "nutritionalValue": { 
+              "calories": 43,
+              "fat": 0.3, 
+              "carbohydrates": 4.1,  
+              "protein": 9.5
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/df/05/97/df0597c95c71040a355f6682345e6af4.jpg",
+              "alt": "YoPro (Blueberry)"
+            }
+          },
+          { 
+            "category": "Dairy&Eggs",
+            "title": "YoPro (Salted Caramel)",
+            "description": "Discover YoPro Protein Yogurt—delicious flavors Packed with protein, it's your go-to snack for a healthy lifestyle.",
+            "price": 5.90,
+            "unit": "unit", 
+            "sale": false, 
+            "nutritionalValue": { 
+              "calories": 43,
+              "fat": 0.3, 
+              "carbohydrates": 4.1,  
+              "protein": 9.5
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/2b/bc/a1/2bbca114fb880af6fba6245bc3d8590f.jpg",
+              "alt": "YoPro (Salted Caramel)"
+            }
+          },
+          { 
+            "category": "Dairy&Eggs",
+            "title": "YoPro (Passion Fruit)",
+            "description": "Discover YoPro Protein Yogurt—delicious flavors Packed with protein, it's your go-to snack for a healthy lifestyle.",
+            "price": 5.90,
+            "unit": "unit", 
+            "sale": false, 
+            "nutritionalValue": { 
+              "calories": 43,
+              "fat": 0.3, 
+              "carbohydrates": 4.1,  
+              "protein": 9.5
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/95/d3/96/95d396761acd9f462870693af5e59bab.jpg",
+              "alt": "YoPro (Passion Fruit)"
+            }
+          },
+          { 
+            "category": "Dairy&Eggs",
+            "title": "YoPro (Strawberry)",
+            "description": "Discover YoPro Protein Yogurt—delicious flavors Packed with protein, it's your go-to snack for a healthy lifestyle.",
+            "price": 5.90,
+            "unit": "unit", 
+            "sale": false, 
+            "nutritionalValue": { 
+              "calories": 43, 
+              "fat": 0.3, 
+              "carbohydrates": 4.1,  
+              "protein": 9.5
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/5e/f1/90/5ef190f533f8d8f0107d94770cb9c461.jpg",
+              "alt": "YoPro (Strawberry)"
+            }
+          },
+          {  
+            "category": "Dairy&Eggs",
+            "title": "YoPro (Banana)",
+            "description": "Discover YoPro Protein Yogurt—delicious flavors Packed with protein, it's your go-to snack for a healthy lifestyle.",
+            "price": 5.90,
+            "unit": "unit", 
+            "sale": false, 
+            "nutritionalValue": { 
+              "calories": 43,
+              "fat": 0.3, 
+              "carbohydrates": 4.1,  
+              "protein": 9.5
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/63/15/00/63150035bb82e87444850922376b324e.jpg",
+              "alt": "YoPro (Banana)"
+            }
+          },
+          {  
+            "category": "Dairy&Eggs",
+            "title": "Chobani",
+            "description": "Experience the goodness of Chobani Greek yogurt – rich in protein, rich in flavor, perfect for your healthy lifestyle.",
+            "price": 5.90,
+            "unit": "unit", 
+            "sale": true, 
+            "nutritionalValue": { 
+              "calories": 54,
+              "fat": 0.1,  
+              "carbohydrates": 3.4,  
+              "protein": 9.5
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/ff/20/e6/ff20e6af595c9d9d44a768ae8b1ad943.jpg",
+              "alt": "Chobani"
+            } 
+          },
+          {  
+            "category": "Dairy&Eggs",
+            "title": "Chobani (Lemon)",
+            "description": "Experience the goodness of Chobani Greek yogurt – rich in protein, rich in flavor, perfect for your healthy lifestyle.",
+            "price": 5.90,
+            "unit": "unit", 
+            "sale": false, 
+            "nutritionalValue": { 
+              "calories": 82,
+              "fat":4, 
+              "carbohydrates": 3.2,  
+              "protein": 8.2
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/87/67/a4/8767a4ec8e0a20a07f779cc8604663f7.jpg",
+              "alt": "Chobani"
+            }
+          },
+          {  
+            "category": "Dairy&Eggs",
+            "title": "Chobani (Coconut)",
+            "description": "Experience the goodness of Chobani Greek yogurt – rich in protein, rich in flavor, perfect for your healthy lifestyle.",
+            "price": 5.90,
+            "unit": "unit", 
+            "sale": false, 
+            "nutritionalValue": { 
+              "calories": 82,
+              "fat":4, 
+              "carbohydrates": 3.2,  
+              "protein": 8.2
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/2f/a8/d5/2fa8d5c5be50370b447a6e4ed4c1577c.jpg",
+              "alt": "Chobani (Coconut)"
+            }
+          },
+          {  
+            "category": "Dairy&Eggs",
+            "title": "Chobani (Lime)",
+            "description": "Experience the goodness of Chobani Greek yogurt – rich in protein, rich in flavor, perfect for your healthy lifestyle.",
+            "price": 5.90,
+            "unit": "unit", 
+            "sale": true, 
+            "nutritionalValue": { 
+              "calories": 82,
+              "fat":4, 
+              "carbohydrates": 3.2,  
+              "protein": 8.2
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/7f/4f/66/7f4f667589253ea21f07fbfba115d61e.jpg",
+              "alt": "Chobani (Lime)"
+            }
+          },
+          {  
+            "category": "Dairy&Eggs",
+            "title": "Chobani (Raspberry)",
+            "description": "Experience the goodness of Chobani Greek yogurt – rich in protein, rich in flavor, perfect for your healthy lifestyle.",
+            "price": 5.90,
+            "unit": "unit", 
+            "sale": false, 
+            "nutritionalValue": { 
+              "calories": 82,
+              "fat":4, 
+              "carbohydrates": 3.2,  
+              "protein": 8.2
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/24/76/2d/24762d1780693d96f8d77453bed4ec48.jpg",
+              "alt": "Chobani (Raspberry)"
+            }
+          },
+          {  
+            "category": "Dairy&Eggs",
+            "title": "Chobani (Mixed Berry)",
+            "description": "Experience the goodness of Chobani Greek yogurt – rich in protein, rich in flavor, perfect for your healthy lifestyle.",
+            "price": 5.90,
+            "unit": "unit", 
+            "sale": true, 
+            "nutritionalValue": { 
+              "calories": 82,
+              "fat":4, 
+              "carbohydrates": 3.2,  
+              "protein": 8.2
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/e6/3b/1e/e63b1ef8c3c573ab8dd8df8e4ba780b2.jpg",
+              "alt": "Chobani (Mixed Berry)"
+            }
+          },
+          {  
+            "category": "Dairy&Eggs",
+            "title": "Chobani (Cherry)",
+            "description": "Experience the goodness of Chobani Greek yogurt – rich in protein, rich in flavor, perfect for your healthy lifestyle.",
+            "price": 5.90,
+            "unit": "unit", 
+            "sale": false, 
+            "nutritionalValue": { 
+              "calories": 82,
+              "fat":4, 
+              "carbohydrates": 3.2,  
+              "protein": 8.2
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/90/8b/a3/908ba3a34641001d5d57491d2dd72f8d.jpg",
+              "alt": "Chobani (Cherry)"
+            }
+          },
+          {  
+            "category": "Dairy&Eggs",
+            "title": "Chobani (Strawberry)",
+            "description": "Experience the goodness of Chobani Greek yogurt – rich in protein, rich in flavor, perfect for your healthy lifestyle.",
+            "price": 5.90,
+            "unit": "unit", 
+            "sale": false, 
+            "nutritionalValue": { 
+              "calories": 82,
+              "fat":4, 
+              "carbohydrates": 3.2,  
+              "protein": 8.2
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/a1/36/d5/a136d504535cd1f95d92bfd420476498.jpg",
+              "alt": "Chobani (Strawberry)"
+            }
+          },
+          {  
+            "category": "Dairy&Eggs",
+            "title": "Chobani (Coffee)",
+            "description": "Experience the goodness of Chobani Greek yogurt – rich in protein, rich in flavor, perfect for your healthy lifestyle.",
+            "price": 5.90,
+            "unit": "unit", 
+            "sale": true, 
+            "nutritionalValue": { 
+              "calories": 82,
+              "fat":4, 
+              "carbohydrates": 3.2,  
+              "protein": 8.2
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/87/d9/2d/87d92d79565b87db0cca8475cad2e833.jpg",
+              "alt": "Chobani (Coffee)"
+            }
+          },
+          {  
+            "category": "Dairy&Eggs",
+            "title": "Chobani (Pineapple)",
+            "description": "Experience the goodness of Chobani Greek yogurt – rich in protein, rich in flavor, perfect for your healthy lifestyle.",
+            "price": 5.90,
+            "unit": "unit", 
+            "sale": true, 
+            "nutritionalValue": {  
+              "calories": 82,
+              "fat":4, 
+              "carbohydrates": 3.2,  
+              "protein": 8.2
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/3a/0c/6a/3a0c6aeca1aeb571c7a8c85087926441.jpg",
+              "alt": "Chobani (Pineapple)"
+            }
+          },
+          {  
+            "category": "Dairy&Eggs",
+            "title": "Chobani (Blueberry)",
+            "description": "Experience the goodness of Chobani Greek yogurt – rich in protein, rich in flavor, perfect for your healthy lifestyle.",
+            "price": 5.90,
+            "unit": "unit", 
+            "sale": false, 
+            "nutritionalValue": { 
+              "calories": 82,
+              "fat":4, 
+              "carbohydrates": 3.2,  
+              "protein": 8.2
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/3a/5c/15/3a5c15cc29a0e4b570cd73b544833749.jpg",
+              "alt": "Chobani (Blueberry)"
+            }
+          },
+          {  
+            "category": "Dairy&Eggs",
+            "title": "Chobani (Peach)",
+            "description": "Experience the goodness of Chobani Greek yogurt – rich in protein, rich in flavor, perfect for your healthy lifestyle.",
+            "price": 5.90,
+            "unit": "unit", 
+            "sale": false, 
+            "nutritionalValue": { 
+              "calories": 82,
+              "fat":4, 
+              "carbohydrates": 3.2,  
+              "protein": 8.2
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/d8/2e/29/d82e29ec64a84ac0d6d2815519cde762.jpg",
+              "alt": "Chobani (Peach)"
+            }
+          }, {  
+            "category": "Dairy&Eggs",
+            "title": "Chobani (Mango)",
+            "description": "Experience the goodness of Chobani Greek yogurt – rich in protein, rich in flavor, perfect for your healthy lifestyle.",
+            "price": 5.90,
+            "unit": "unit", 
+            "sale": false,  
+            "nutritionalValue": { 
+              "calories": 82,
+              "fat":4, 
+              "carbohydrates": 3.2,  
+              "protein": 8.2
+            },
+            "img": {
+              "url": "https://i.pinimg.com/564x/df/65/a6/df65a6d302771648c693afe4d26f4ad8.jpg",
+              "alt": "Chobani (Mango)"
+            }
+          }
+        ],
+        "users":[
+          {
+            "firstName":"Admin",
+            "lastName":"User",
+             "phone":"0543143870",
+             "email":"admin@gmail.com",
+             "password":"A11413365$c",
+             "city":"Herzliya",
+             "street":"Ben-Gurion",
+             "houseNumber":"100",
+             "roleType":"20"
+          },
+          {
+            "firstName": "John",
+            "lastName": "Doe",
+            "phone": "0552269949",
+            "email": "johndoe@gmail.com",
+            "password": "A11413365$c",
+            "city": "Tel Aviv",
+            "street": "Menachem Begin",
+            "houseNumber": "54",
+            "roleType": "10"
+        },
+        {
+            "firstName": "Alice",
+            "lastName": "Smith",
+            "phone": "0525543270",
+            "email": "alicesmith@gmail.com",
+            "password": "A11413365$c",
+            "city": "Tel Aviv",
+            "street": "Rothschild",
+            "houseNumber": "32",
+            "roleType": "10"
+        },
+        {
+            "firstName": "Michael",
+            "lastName": "Johnson",
+            "phone": "0547891234",
+            "email": "michaeljohnson@gmail.com",
+            "password": "A11413365$c",
+            "city": "Jerusalem",
+            "street": "King David",
+            "houseNumber": "12",
+            "roleType": "10"
+        },
+        {
+            "firstName": "Emily",
+            "lastName": "Brown",
+            "phone": "0512345678",
+            "email": "emilybrown@gmail.com",
+            "password": "A11413365$c",
+            "city": "Haifa",
+            "street": "Herzl",
+            "houseNumber": "8",
+            "roleType": "10"
+        },
+        {
+            "firstName": "Daniel",
+            "lastName": "Martinez",
+            "phone": "0534567890",
+            "email": "danielmartinez@gmail.com",
+            "password": "A11413365$c",
+            "city": "Beersheba", 
+            "street": "Ben Gurion",
+            "houseNumber": "21",
+            "roleType": "10"
+        }
+        ]
+      } 
+    
+   
+    

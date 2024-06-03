@@ -1,36 +1,40 @@
 const dotenv = require('dotenv');
-const express=require('express');
-const cors =require('cors');
-const mongoose=require('mongoose');
-const chalk=require('chalk'); 
-const loggerMiddleware=require('./handlers/helpers/logger');
-const port = process.env.PORT || 4000;
-// const env = dotenv.config({ path: './prod.env' }); // for mongoDb Atlas use path: './prod.env'
+const express = require('express');
+const cors = require('cors');
+const mongoose = require('mongoose');
+const chalk = require('chalk'); 
+const loggerMiddleware = require('./handlers/helpers/logger');
+const port = process.env.PORT || 5000;
 
-async function main(){
-    try{
+// Load environment variables
+dotenv.config();
+
+async function main(){ 
+    try {
         const remoteUrl = process.env.REMOTE_URL;
         if (!remoteUrl) {
             throw new Error('REMOTE_URL environment variable not set');
         }
-        await mongoose.connect(remoteUrl, { useNewUrlParser: true, useUnifiedTopology: true });
+        await mongoose.connect(remoteUrl, {
+            serverSelectionTimeoutMS: 30000, // 30 seconds 
+        });
         console.log(chalk.blue('Connection Established')); 
-    }catch(err){
-        (err=>console.log(chalk.red(err))); 
+    } catch (err) {
+        console.log(chalk.red(err)); 
     }
 } 
 main();        
 
 const app=express();   
 
-app.use(express.json()); 
-
+app.use(express.json());  
+ 
 app.use(cors({ 
     origin: true,  
-    credentials: true, 
+    credentials: true,  
     methods: 'GET,PUT,POST,DELETE,OPTIONS,PATCH',
     allowedHeaders: 'Content-Type, Accept, Authorization',
-}));
+})); 
  
 app.use(loggerMiddleware);
  

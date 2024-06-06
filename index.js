@@ -13,14 +13,14 @@ async function main(){
     try {
         const remoteUrl = process.env.REMOTE_URL;
         if (!remoteUrl) {
-            throw new Error('REMOTE_URL environment variable not set');
+            throw new Error ('REMOTE_URL environment variable not set');
         }
         await mongoose.connect(remoteUrl, {
             serverSelectionTimeoutMS: 30000, // 30 seconds 
         });
         console.log(chalk.blue('Connection Established')); 
     } catch (err) {
-        console.log(chalk.red(err)); 
+        console.error(chalk.red('Failed to connect to MongoDB'), err); 
     }
 } 
 main();        
@@ -29,12 +29,12 @@ const app=express();
 
 app.use(express.json());  
  
-app.use(cors({ 
+app.use(cors({  
     origin: true,  
     credentials: true,  
     methods: 'GET,PUT,POST,DELETE,OPTIONS,PATCH',
     allowedHeaders: 'Content-Type, Accept, Authorization',
-})); 
+}));   
  
 app.use(loggerMiddleware);
  

@@ -43,7 +43,7 @@ app.listen(port,()=>{
     console.log(chalk.blue((`Listening to port ${port}`))); 
 });
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '..', 'public'))); // Adjust the path to match the correct structure
 
 require('./handlers/authentication/signup')(app);
 require('./handlers/authentication/login')(app);
@@ -55,5 +55,5 @@ require('./handlers/adminData/dashboard')(app)
 require('./handlers/initialData/initialDataService');
 
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    res.sendFile(path.join(__dirname, '..', 'public', 'index.html')); // Adjust the path to match the correct structure
 });

@@ -5,8 +5,6 @@ const mongoose = require('mongoose');
 const chalk = require('chalk'); 
 const loggerMiddleware = require('./handlers/helpers/logger');
 const port = process.env.PORT || 5000;
-const path = require('path'); // Import the path module
-const fs = require('fs');
 
 // Load environment variables
 dotenv.config();
@@ -39,15 +37,12 @@ app.use(cors({
 }));   
  
 app.use(loggerMiddleware);
- // Ensure logs directory exists
-if (!fs.existsSync(path.join(__dirname, 'logs'))) {
-    fs.mkdirSync(path.join(__dirname, 'logs'));
-}
+ 
 app.listen(port,()=>{ 
     console.log(chalk.blue((`Listening to port ${port}`))); 
 });
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static("public"));
 
 require('./handlers/authentication/signup')(app);
 require('./handlers/authentication/login')(app);
@@ -58,16 +53,6 @@ require('./handlers/order/order')(app);
 require('./handlers/adminData/dashboard')(app)
 require('./handlers/initialData/initialDataService');
 
-// Serve index.html for client-side routes
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', 'Simply Fresh-Frontend', 'public', 'index.html'));
-});
-
-// Handle 404 errors for API routes
-app.use((req, res, next) => {
-    if (req.accepts('html')) {
-        res.status(404).sendFile(path.join(__dirname, 'public', 'pageNotFound.html'));
-    } else {
-        res.status(404).json({ error: 'Not Found' });
-    }
-});
+app.get("*", (req, res) => {
+    res.sendFile(`${__dirname}/public/pageNotFound.html`);
+ }); 

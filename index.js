@@ -55,7 +55,7 @@ require('./handlers/adminData/dashboard')(app)
 require('./handlers/initialData/initialDataService');
 
 app.get("*", (req, res) => {
-    const filePath = path.join(__dirname, 'public', 'pageNotFound.html');
+    const filePath = path.join(__dirname, 'src', 'public', 'pageNotFound.html'); // Adjust based on actual structure
     console.log('Attempting to serve 404 page from:', filePath);
     res.sendFile(filePath, (err) => {
         if (err) {

@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 const chalk = require('chalk'); 
 const loggerMiddleware = require('./handlers/helpers/logger');
 const port = process.env.PORT || 5000;
+const path = require('path'); // Import the path module
 
 // Load environment variables
 dotenv.config();
@@ -42,7 +43,7 @@ app.listen(port,()=>{
     console.log(chalk.blue((`Listening to port ${port}`))); 
 });
 
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, 'public')));
 
 require('./handlers/authentication/signup')(app);
 require('./handlers/authentication/login')(app);
@@ -53,6 +54,6 @@ require('./handlers/order/order')(app);
 require('./handlers/adminData/dashboard')(app)
 require('./handlers/initialData/initialDataService');
 
-app.get("*", (req, res) => {
-    res.sendFile(`${__dirname}/public/pageNotFound.html`);
- }); 
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});

@@ -38,7 +38,10 @@ app.use(cors({
 }));   
  
 app.use(loggerMiddleware);
- 
+ // Ensure logs directory exists
+if (!fs.existsSync(path.join(__dirname, 'logs'))) {
+    fs.mkdirSync(path.join(__dirname, 'logs'));
+}
 app.listen(port,()=>{ 
     console.log(chalk.blue((`Listening to port ${port}`))); 
 });

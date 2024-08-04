@@ -43,7 +43,7 @@ app.listen(port,()=>{
     console.log(chalk.blue((`Listening to port ${port}`))); 
 });
 
-app.use(express.static(path.join(__dirname, '..', 'public'))); // Adjust the path to match the correct structure
+app.use(express.static(path.join(__dirname, '..', 'public')));
 
 require('./handlers/authentication/signup')(app);
 require('./handlers/authentication/login')(app);
@@ -54,6 +54,16 @@ require('./handlers/order/order')(app);
 require('./handlers/adminData/dashboard')(app)
 require('./handlers/initialData/initialDataService');
 
+// Serve index.html for client-side routes
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', 'public', 'index.html')); // Adjust the path to match the correct structure
+    res.sendFile(path.join(__dirname, '..', 'public', 'index.html'));
+});
+
+// Handle 404 errors for API routes
+app.use((req, res, next) => {
+    if (req.accepts('html')) {
+        res.status(404).sendFile(path.join(__dirname, '..', 'public', 'pageNotFound.html'));
+    } else {
+        res.status(404).json({ error: 'Not Found' });
+    }
 });

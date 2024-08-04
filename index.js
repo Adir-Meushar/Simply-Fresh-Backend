@@ -6,6 +6,7 @@ const chalk = require('chalk');
 const loggerMiddleware = require('./handlers/helpers/logger');
 const port = process.env.PORT || 5000;
 const path = require('path'); // Import the path module
+const fs = require('fs');
 
 // Load environment variables
 dotenv.config();

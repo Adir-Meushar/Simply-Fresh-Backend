@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 const chalk = require('chalk'); 
 const loggerMiddleware = require('./handlers/helpers/logger');
 const port = process.env.PORT || 5000;
+const path = require('path');
 
 // Load environment variables
 dotenv.config();
@@ -54,5 +55,12 @@ require('./handlers/adminData/dashboard')(app)
 require('./handlers/initialData/initialDataService');
 
 app.get("*", (req, res) => {
-    res.sendFile(`${__dirname}/public/pageNotFound.html`);
- }); 
+    const filePath = path.join(__dirname, 'public', 'pageNotFound.html');
+    console.log('Attempting to serve 404 page from:', filePath);
+    res.sendFile(filePath, (err) => {
+        if (err) {
+            console.error('Error serving file:', err);
+            res.status(500).send('Server Error');
+        }
+    });
+});

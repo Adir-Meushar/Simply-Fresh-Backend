@@ -60,7 +60,7 @@ require('./handlers/initialData/initialDataService');
 
 // Serve index.html for client-side routes
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', 'simply-fresh-frontend', 'public', 'index.html'));
+    res.sendFile(path.join(__dirname, '..', 'Simply Fresh-frontend', 'public', 'index.html'));
 });
 
 // Handle 404 errors for API routes
